@@ -9,8 +9,10 @@ import axios from "axios";
 import './App.css'
 
 function App() {
-  const [code, setCode] = useState(`function sum() {
-  a+b }`)
+  const [code, setCode] = useState(`
+  function sum() {
+  a+b 
+  } `)
   const [review, setReview] = useState("")
 
   useEffect(()=>{
